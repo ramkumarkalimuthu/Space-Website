@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+.no-padding {
+  padding: 0;
+}
+html {
+  /*For smooth scrolling behavior*/
+  scroll-behavior: smooth;
+}
+.primary-color {
+  color: #0b0d17;
+}
+.second-color {
+  color: #d0d6f9;
+}
+.third-color {
+  color: #ffffff;
+}
+
+.body-text {
+  font-family: 'Barlow Condensed';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  font-style: normal;
+  letter-spacing: 2.7px;
+}
+.heading1-text,
+.heading2-text,
+.heading3-text,
+.heading4-text {
+  font-family: 'Bellefair', serif;
+  font-size: 150px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 171.9px;
+}
+.heading2-text {
+  font-size: 100px;
+  line-height: 114.6px;
+}
+.heading3-text {
+  font-size: 56px;
+  line-height: 64.18px;
+}
+.heading4-text {
+  font-size: 32px;
+  line-height: 36.67px;
+  text-transform: uppercase;
+}
+
+.heading5-text {
+  font-family: 'Barlow Condensed';
+  font-size: 28px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 4.72px;
+  text-transform: uppercase;
+  line-height: 33.6px;
+  color: #fff;
+}
+
+.subheading1-text,
+.subheading2-text,
+.navbar-text {
+  font-family: 'Barlow Condensed';
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32.09px;
+}
+
+.subheading2-text {
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  line-height: 16.8px;
+}
+
+.navbar-text {
+  font-size: 18px;
+  letter-spacing: 2.7px;
+  line-height: 32px;
+}
+
+.bg-image {
+  width: 100%;
+  height: 900px;
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bg {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+/* ****** navbar ******/
+
+.left-panel {
+  padding-left: 50px;
+  padding-top: 26px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.right-panel {
+  margin: 75px auto;
+  text-align: center;
+}
+
+.nav-section {
+  padding-bottom: 5%;
+}
+
+.nav-link:hover {
+  color: #d0d6f9;
+  border-bottom: 2px solid #d0d6f9;
+  transition: opacity 0.5s ease-in-out;
+}
+
+li.nav-item {
+  padding-right: 40px;
+}
+
+a.nav-link.nav-active.navbar-text.third-color {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.bg-circle {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  left: 40%;
+  top: 15%;
+}
+
+h4.heading4-text.primary-color {
+  position: absolute;
+  text-align: center;
+  top: 47%;
+  left: 25%;
+}
+
+.bg-circle:hover {
+  box-shadow: 0px 0px 0px 70px;
+  transition: 0.5s ease-in;
+}
+
+/**destination**/
+
+.bg-destination {
+  width: 100%;
+  height: 900px;
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pick-text {
+  color: #fff;
+}
+.nav-pills .nav-link.active {
+   
+    background-color: rgb(0 0 0 / 0%);
+ 
+  color: #d0d6f9 ;
+  border-bottom: 2px solid #fff;
+}
+.nav-link {
+  color: #d0d6f9;
+}
+
+.nav-pills .nav-link {
+  border-radius: unset;
+}
+
+.tab-views {
+  margin-top: 5%;
+}
+
+.line {
+  margin-top: 50px;
+  background-color: #383b4b;
+}
+
+.text-trans {
+  text-transform: uppercase;
+}
+
+.bg-crew {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/crew/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.bg-tech {
+  width: 100%;
+  height: 900px;
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navpills {
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  border: 1px solid #fff !important;
+  text-align: center;
+}
+
+.itemlist {
+  padding-top: 20%;
+}
+
+.tech .nav-pills .nav-link.active {
+   
+    background-color:#fff;
+    color:#000;
+}
+
+.subtext{
+  font-family: 'Barlow Condensed';;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+text-transform: uppercase;
+
+color: #D0D6F9;
+}
+.carousel-indicators {   
+    justify-content:start;
+   
+}
+
+.carousel-indicators [data-bs-target] {
+    
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
